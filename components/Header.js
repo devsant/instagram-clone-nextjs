@@ -45,7 +45,11 @@ const Header = () => {
 				</div>
 
 				{/* Right */}
-				<HomeIcon className="h-1- w-10" />
+				<div className="flex item-center justify-end space-x-4">
+					<HomeIcon className="h-10 w-10" />
+					<MenuIcon className="h-10 w-10 md:hidden cursor-pointer" />
+					<PaperAirplaneIcon className="h-10 w-10" />
+				</div>
 			</div>
 		</div>
 	);
